@@ -17,7 +17,7 @@ Usage
 
 ```
 
-See an [example](http://makinacorpus.github.io/Leaflet.Social/demo.html).
+See an [example](http://makinacorpus.github.io/Leaflet.Social/simpledemo.html).
 
 Authors
 -------
