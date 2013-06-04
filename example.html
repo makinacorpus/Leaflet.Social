@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+  <link rel="stylesheet" type="text/css" href="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.css" />
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="./leaflet.social.css" />  
+
+  <style type='text/css'>
+    #map { width: 400px; height: 300px }
+  </style>
+
+</head>
+<body>
+  <div id="map"></div>
+  <script type='text/javascript' src="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.js"></script>
+  <script type='text/javascript' src="https://raw.github.com/mlevans/leaflet-hash/master/leaflet-hash.js"></script>
+  
+  <script type='text/javascript' src="./leaflet.social.js"></script>
+  <script type='text/javascript'>//<![CDATA[ 
+window.onload = function(){
+
+  var map = L.map('map');
+  var hash = new L.Hash(map);
+  L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+
+  L.control.social({default_text: "Guess where I am"}).addTo(map);
+
+  map.setView([-16.4736, -151.7475], 13);
+
+};
+//]]> 
+  </script>
+
+</body>
+</html>
