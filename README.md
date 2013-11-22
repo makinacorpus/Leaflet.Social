@@ -11,13 +11,13 @@ Uses [Font Awesome](http://fortawesome.github.io/Font-Awesome/) icons.
 
 Usage
 -----
- 
-```
+
+```javascript
     L.control.social({default_text: "Guess where I am"}).addTo(map);
 
 ```
 
-See an [example](http://makinacorpus.github.io/Leaflet.Social/simpledemo.html).
+See an [example](http://makinacorpus.github.io/Leaflet.Social/).
 
 Authors
 -------

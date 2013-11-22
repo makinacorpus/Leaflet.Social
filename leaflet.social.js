@@ -43,5 +43,5 @@ L.Control.Social = L.Control.extend({
 });
 
 L.control.social = function (options) {
-    return new L.Control.Social(options);
+  return new L.Control.Social(options);
 };
