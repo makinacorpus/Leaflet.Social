@@ -14,7 +14,6 @@ Usage
 
 ```javascript
     L.control.social({default_text: "Guess where I am"}).addTo(map);
-
 ```
 
 See an [example](http://makinacorpus.github.io/Leaflet.Social/).
