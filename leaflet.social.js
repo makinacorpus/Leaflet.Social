@@ -1,5 +1,5 @@
 L.Control.Social = L.Control.extend({
-  includes: (L.Evented.prototype || L.Mixin.Events),
+  includes: (L.Evented && L.Evented.prototype || L.Mixin.Events),
   options: {
     position: 'bottomleft',
     default_text: "What a nice map",
